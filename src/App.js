@@ -1,25 +1,25 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation/Navigation';
-import Intro from './components/Intro/Intro';
-import Features from './components/Features/Features';
-import CallToAction from './components/CallToAction/CallToAction';
-import Quotes from './components/Quotes/Quotes';
-import EmailComponent from './components/EmailComponent/EmailComponent';
-import Footer from './components/footer/Footer';
 
-const App = () => {
+function App() {
   return (
-    <div className="wrapper" role="main">
-      <Navigation />
-      <Intro />
-      <Features />
-      <CallToAction />
-      <Quotes />
-      <EmailComponent />
-      <Footer />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
-};
+}
 
 export default App;
