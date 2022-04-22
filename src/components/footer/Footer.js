@@ -56,7 +56,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <p class="attribution">
+      <p className="attribution">
         Challenge by{' '}
         <a
           href="https://www.frontendmentor.io?ref=challenge"

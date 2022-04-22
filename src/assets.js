@@ -1,4 +1,5 @@
 import logo from './assets/logo.svg';
+import bgDesktop from './assets/bg-curvy-desktop.svg';
 import intro from './assets/illustration-intro.png';
 import accessAnyWhere from './assets/icon-access-anywhere.svg';
 import iconSecurity from './assets/icon-security.svg';
@@ -15,6 +16,7 @@ import iconEmail from './assets/icon-email.svg';
 
 const assets = {
   logo: logo,
+  bgDesktop: bgDesktop,
   intro: intro,
   accessAnyWhere: accessAnyWhere,
   iconSecurity: iconSecurity,
