@@ -4,9 +4,9 @@
 }
 
 .wrapper {
-  background-color: rgba(24, 31, 42, 0.9);
+  background-color: hsl(217, 28%, 15%);
   background-image: url('./assets/bg-curvy-desktop.svg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 23%;
   height: auto;
 }
