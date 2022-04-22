@@ -1,0 +1,18 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px hsl(219, 30%, 18%), 0px 6px 10px hsl(219, 30%, 18%);
+  width: 25%;
+}
+
+@media screen and (max-width: 900px) {
+  .quote {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

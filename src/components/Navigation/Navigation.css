@@ -1,0 +1,26 @@
+.navbar {
+  font-family: 'Raleway';
+  list-style-type: none;
+  font-weight: 400;
+}
+
+.navbar .navlink {
+  float: left;
+}
+
+.navbar .navlink.right {
+  float: right;
+}
+
+.navlink button {
+  display: inline-block;
+  padding: 14px 16px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.navlink button:hover {
+  text-decoration: underline;
+}

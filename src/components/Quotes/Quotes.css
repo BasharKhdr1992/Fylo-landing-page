@@ -1,0 +1,19 @@
+.quotes-section {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: center;
+  background-image: url('../../assets/bg-quotes.png');
+  background-position: top 0 left 5%;
+  background-repeat: no-repeat;
+  color: hsl(0, 0%, 98%);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .quotes-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
