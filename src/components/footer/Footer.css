@@ -1,0 +1,169 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  background-color: hsl(216, 53%, 9%);
+  color: hsl(0, 0%, 98%);
+}
+
+.col {
+  width: 20%;
+}
+
+.footer-location,
+.footer-contact {
+  color: hsl(0, 0%, 98%);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.logo-container button {
+  background: transparent;
+  border: none;
+}
+
+.logo-container button img {
+  width: 72px;
+  height: 48px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.footer-location {
+  display: flex;
+}
+
+.footer-location img {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-location p {
+  margin-left: 10px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact-phone,
+.footer-contact-email {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-icon {
+  display: inline-block;
+  background: transparent;
+  border: none;
+  width: 24px;
+}
+
+.contact-icon img {
+  width: 100%;
+}
+
+.footer-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-navbar button {
+  width: fit-content;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 98%);
+}
+
+.footer-navbar button:last-child {
+  margin-bottom: 0px;
+}
+
+.footer-navbar button:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-social button {
+  height: min-content;
+  padding: 8px;
+  background: transparent;
+  color: hsl(0, 0%, 98%);
+  border-radius: 50%;
+  border-color: hsl(0, 0%, 98%);
+  cursor: pointer;
+}
+
+.footer-social button:hover {
+  border-color: hsl(176, 68%, 64%);
+  color: hsl(176, 68%, 64%);
+}
+
+p.attribution {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    height: 120vh;
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .footer-text {
+    flex-direction: column;
+  }
+
+  .footer-social {
+    justify-content: space-evenly;
+  }
+
+  .footer-location,
+  .footer-contact,
+  .footer-navbar,
+  .footer-social {
+    margin-bottom: 30px;
+    align-items: flex-start;
+  }
+
+  .footer-contact-phone {
+    margin-bottom: 10px;
+  }
+
+  .footer-contact-phone,
+  .footer-contact-email {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .footer-contact-phone p,
+  .footer-contact-email p {
+    margin-left: 20px;
+  }
+}

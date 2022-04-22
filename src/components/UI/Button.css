@@ -1,0 +1,25 @@
+.btn.btn-primary {
+  color: hsl(0, 0%, 100%);
+  padding: 14px 16px;
+  border-radius: 24px;
+  border: none;
+  width: 50%;
+  background-color: hsl(176, 68%, 64%);
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn.btn-primary.btn-form {
+  margin-top: 0;
+  font-size: 16px;
+  height: min-content;
+  width: 30%;
+}
+
+@media screen and (max-width: 900px) {
+  .btn.btn-primary.btn-form {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
